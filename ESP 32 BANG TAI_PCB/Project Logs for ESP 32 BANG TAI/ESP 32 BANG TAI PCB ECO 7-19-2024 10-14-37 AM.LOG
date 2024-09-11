@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=+12 Pin=LM1-1
+Removed Pin From Net: NetName=+12 Pin=LM1-1
+Removed Pin From Net: NetName=NetD1_2 Pin=LM1-2
+Removed Pin From Net: NetName=GND Pin=LM1-3
+Removed Pin From Net: NetName=+5V Pin=LM1-4
+Removed Pin From Net: NetName=GND Pin=LM1-5
+Removed Member From Class: ClassName=ESP 32 BANG TAI Member=LM1
+Change Component Footprint: Designator=C6 Old Footprint=JP4-C1C New Footprint=JP4-C1T
+Change Component Footprint: Designator=C7 Old Footprint=JP4-C1C New Footprint=JP4-C1T
+Change Component Footprint: Designator=C8 Old Footprint=JP4-C1C New Footprint=JP4-C1T
+Change Component Footprint: Designator=JP1 Old Footprint=JP6H New Footprint=JP6
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=U3 NewDesignator=U4
+Added Component: Designator=U1(DIP5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Category"; Value = "IC-Power"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Input Voltage"; Value = "12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Current"; Value = "3 (6.0 peak) A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Input Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Output Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerICTypes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Status"; Value = "Unreleased"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-40 to +125 degC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=U1-1
+Added Pin To Net: NetName=NetD1_2 Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=+5V Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Member To Class: ClassName=ESP 32 BANG TAI Member=Component U4 PC817
+Added Room: Name=ESP 32 BANG TAI

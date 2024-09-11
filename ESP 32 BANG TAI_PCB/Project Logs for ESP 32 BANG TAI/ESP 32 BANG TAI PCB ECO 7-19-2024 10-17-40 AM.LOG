@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=+12 Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=+12 Pin=P1-1
+Removed Pin From Net: NetName=GND Pin=P1-2
+Removed Member From Class: ClassName=ESP 32 BANG TAI Member=P1
+Change Component Footprint: Designator=C3 Old Footprint=330uF_35V_Alu New Footprint=CP1.5/3.4
+Change Component Footprint: Designator=L1 Old Footprint=L-SMD-M-12x10 New Footprint=L01
+Change Component Comment : Designator=L1 Old Comment=33UH New Comment=150mH
+Change Component Designator: OldDesignator=C2 NewDesignator=C1
+Change Component Designator: OldDesignator=C4 NewDesignator=C5
+Change Component Designator: OldDesignator=C5 NewDesignator=C6
+Change Component Designator: OldDesignator=C6 NewDesignator=C7
+Change Component Designator: OldDesignator=C7 NewDesignator=C8
+Change Component Designator: OldDesignator=C8 NewDesignator=C9
+Change component parameters: Designator = "L1"; Footprint = "L01"; UniqueID = "\AOGLOKVU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "150 mH"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CP1.5/3.4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Description 1"; Value = "2200uF-3300uF/6,3V - 1000uF-2200uF/10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 2"; Value = "1000uF/16V - 470uF => 1000uF/25V - 100uF/100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 3"; Value = "330uF>470uF/35V_220uF>470uF/50V_10uF>22uF/250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 4"; Value = "220uF => 330uF/63V - 10uF =>33uF/160 - 200V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 5"; Value = "4,7uF>10uF/250V_3,3uF>10uF/400V - 2,2uF>4,7uF/450V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1000uF/16V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CN2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=JDC1(DC-IN)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Jac DC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=+12 Pin=C4-2
+Added Pin To Net: NetName=+12 Pin=JDC1-1
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=JDC1-3
+Change Net Name : Old Net Name=NetC5_1 New Net Name=NetC6_1
+Added Member To Class: ClassName=ESP 32 BANG TAI Member=Component C9 MQ2
+Added Member To Class: ClassName=ESP 32 BANG TAI Member=Component JDC1 Jac DC
+Added Member To Class: ClassName=ESP 32 BANG TAI Member=Component U1 LM2976
+Added Member To Class: ClassName=ESP 32 BANG TAI Member=Component U2 LM1117-3.3V
+Added Member To Class: ClassName=ESP 32 BANG TAI Member=Component U3 ESP32-WROOM-32
+Added Room: Name=ESP 32 BANG TAI
